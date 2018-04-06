@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12115" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Beenon" representedClassName="Beenon" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="halfData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quarterData" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Trash" representedClassName="Trash" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="halfData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quarterData" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Userinfo" representedClassName="Userinfo" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Wishlist" representedClassName="Wishlist" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="halfData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quarterData" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Beenon" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Trash" positionX="-63" positionY="27" width="128" height="120"/>
+        <element name="Userinfo" positionX="-63" positionY="36" width="128" height="60"/>
+        <element name="Wishlist" positionX="-63" positionY="9" width="128" height="120"/>
+    </elements>
+</model>
